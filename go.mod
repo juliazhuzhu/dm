@@ -1,4 +1,4 @@
-module dm
+module github.com/juliazhuzhu/dm
 
 go 1.13
 
