@@ -7,12 +7,13 @@ package dm
 
 import (
 	"bufio"
-	"dm/util"
 	"io"
 	"os"
 	"runtime"
 	"strconv"
 	"strings"
+
+	"github.com/juliazhuzhu/dm/util"
 )
 
 var LogDirDef, _ = os.Getwd()
@@ -77,7 +78,6 @@ const (
 )
 
 var (
-
 	DbAliveCheckFreq = DbAliveCheckFreqDef
 
 	Locale = LocaleDef // 0:简体中文 1：英文 2:繁体中文

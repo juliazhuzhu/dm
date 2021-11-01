@@ -5,10 +5,11 @@
 package dm
 
 import (
-	"dm/util"
 	"math"
 	"strconv"
 	"strings"
+
+	"github.com/juliazhuzhu/dm/util"
 )
 
 const (

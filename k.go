@@ -7,8 +7,9 @@ package dm
 
 import (
 	"bytes"
-	"dm/util"
 	"time"
+
+	"github.com/juliazhuzhu/dm/util"
 )
 
 /**

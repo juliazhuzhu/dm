@@ -8,13 +8,14 @@ import (
 	"bytes"
 	"context"
 	"database/sql/driver"
-	"dm/util"
 	"net"
 	"net/url"
 	"os"
 	"runtime"
 	"strconv"
 	"strings"
+
+	"github.com/juliazhuzhu/dm/util"
 )
 
 const (
